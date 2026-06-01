@@ -1,0 +1,11 @@
+POST http://localhost:3001/auth/register
+Content-Type: application/json
+
+{
+  "firstName": "Mchiir",
+  "lastName": "dev",
+  "phone": "+1-555-0102",
+  "email": "mchiir@gmail.com",
+  "password": "SecurePassword123!",
+  "role": "ADMIN"
+}
